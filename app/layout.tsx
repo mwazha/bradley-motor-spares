@@ -6,6 +6,10 @@ import FloatingContact from "../components/FloatingContact";
 export const metadata: Metadata = {
   title: "Bradley Motor Spares Pvt Ltd",
   description: "Trusted motor spares, repairs, and expert advice for drivers and garages.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icon.svg" }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
