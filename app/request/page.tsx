@@ -99,7 +99,6 @@ export default function RequestPage() {
 
           <ul className="request-highlights">
             <li>📧 Your request will be sent directly to bradleyspares@gmail.com for review.</li>
-            <li>📩 You will receive an automatic confirmation email acknowledging your request.</li>
             <li>📞 Our team will contact you as soon as possible with availability, pricing, and delivery options.</li>
           </ul>
 
