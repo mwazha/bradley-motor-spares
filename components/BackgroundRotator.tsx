@@ -29,7 +29,7 @@ export default function BackgroundRotator({ images, interval = 5000, children }:
       <div className="rotator-bg">
         {images.map((src, i) => (
           <div
-            key={src + i}
+            key={`${src}-${i}`}
             className={`rotator-layer ${i === index ? "active" : ""}`}
             style={{ backgroundImage: `url(${src})` }}
             aria-hidden="true"

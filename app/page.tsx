@@ -23,28 +23,30 @@ export default function HomePage() {
   };
 
   return (
-    <BackgroundRotator images={images} interval={6000}>
+    <>
       <main className="page-shell">
         <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: 24 }}>
-          <section className="hero-card hero-banner" id="hero">
-            <div className="hero-banner__content">
-              <p className="eyebrow">Bradley Motor Spares Pvt Ltd</p>
-              <h1>TRUCK & MACHINERY SPARES</h1>
-              <p className="hero-copy">
-                All service kits & Genuine spare parts!
-              </p>
-              <div className="hero-actions">
-                <a
-                  href="mailto:bradleyspares@gmail.com?subject=Request%20a%20Quote"
-                  className="primary-btn"
-                >
-                  Request a Quote
-                </a>
-                <a href="/contacts" className="secondary-btn">
-                  Contact Sales
-                </a>
+          <section className="hero-card hero-banner hero-with-background" id="hero">
+            <BackgroundRotator images={images} interval={6000}>
+              <div className="hero-banner__content">
+                <p className="eyebrow">Bradley Motor Spares Pvt Ltd</p>
+                <h1>TRUCK & MACHINERY SPARES</h1>
+                <p className="hero-copy">
+                  All service kits & Genuine spare parts!
+                </p>
+                <div className="hero-actions">
+                  <a
+                    href="mailto:bradleyspares@gmail.com?subject=Request%20a%20Quote"
+                    className="primary-btn"
+                  >
+                    Request a Quote
+                  </a>
+                  <a href="/contacts" className="secondary-btn">
+                    Contact Sales
+                  </a>
+                </div>
               </div>
-            </div>
+            </BackgroundRotator>
           </section>
 
           <section className="featured-products-section">
@@ -181,6 +183,6 @@ export default function HomePage() {
           </button>
         </div>
       </div>
-    </BackgroundRotator>
+    </>
   );
 }
