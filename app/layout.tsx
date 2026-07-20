@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <span>© 2026 Bradley Motor Spares Pvt Ltd. All Rights Reserved</span>
             <span className="site-footer__hours">Mon–Fri: 7:30AM–5PM • Sat: 8AM–1PM • Sun/Public Holidays: Closed</span>
           </div>
-          <div className="site-footer__center">Developed &amp; Maintained by Venex_Media +263787660665|782561331</div>
+          <div className="site-footer__center">Developed &amp; Maintained by Venex_Media +263782561331|787660665</div>
           <div className="site-footer__right">
             <a
               href="https://wa.me/263778843819?text=Hello%20Bradley%20Motor%20Spares"
