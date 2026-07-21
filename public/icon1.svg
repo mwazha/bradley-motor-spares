@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bradley Motor Spares icon">
+  <rect width="64" height="64" rx="14" fill="#07111f"/>
+  <path d="M18 18h28v10H18z" fill="#ffb703"/>
+  <path d="M18 32h28v14H18z" fill="#ffffff"/>
+  <path d="M22 22h8v6h-8z" fill="#07111f"/>
+  <path d="M22 36h8v8h-8z" fill="#07111f"/>
+  <path d="M34 24h8v4h-8z" fill="#07111f"/>
+  <path d="M34 36h8v8h-8z" fill="#07111f"/>
+</svg>

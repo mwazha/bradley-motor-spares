@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   title: "Bradley Motor Spares Pvt Ltd",
   description: "Trusted motor spares, repairs, and expert advice for drivers and garages.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/icon.svg" }],
+    icon: [{ url: "/icon1.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icon1.svg" }],
   },
 };
 
