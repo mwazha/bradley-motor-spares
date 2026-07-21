@@ -18,7 +18,7 @@ const initialForm = {
 };
 
 export default function RequestPage() {
-  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg"];
+  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg", "/spares.png", "/attachments%20and%20components.png", "/tips%20and%20adapters.jpg", "/BRADLEY%20BANNER.jpg.jpeg", "/34.png"];
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState(initialForm);
   const [submitted, setSubmitted] = useState(false);

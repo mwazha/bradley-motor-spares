@@ -1,7 +1,7 @@
 import BackgroundRotator from "../../components/BackgroundRotator";
 
 export default function AboutPage() {
-  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg"];
+  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg", "/spares.png", "/attachments%20and%20components.png", "/tips%20and%20adapters.jpg", "/BRADLEY%20BANNER.jpg.jpeg", "/34.png"];
 
   return (
     <BackgroundRotator images={images} interval={6000}>
@@ -97,31 +97,6 @@ export default function AboutPage() {
             </p>
           </section>
 
-          <hr className="section-divider" />
-
-          <section className="about-section">
-            <h2>Our Leadership</h2>
-            <p>
-              Bradley Motor Spares Pvt Ltd is led by <strong>Mr. Tendai Musongwe</strong> and
-              <strong> Mrs. Sharon Marihoho</strong>, the company&apos;s Managing Directors. Since
-              the company&apos;s establishment in 2018, they have played a pivotal role in the growth
-              and success of the business through visionary leadership, strategic planning, and an
-              unwavering commitment to excellence.
-            </p>
-            <p>
-              Their dedication to quality management, integrity, and customer satisfaction has helped
-              establish Bradley Motor Spares Pvt Ltd as a trusted supplier of automotive spare parts and
-              industrial components. Under their leadership, the company continues to expand its
-              product range, strengthen customer relationships, and provide reliable solutions to
-              clients across Zimbabwe and Southern Africa.
-            </p>
-            <p>
-              Together, they are committed to upholding the company&apos;s core values of
-              professionalism, honesty, reliability, and continuous improvement while ensuring
-              every customer receives quality products, exceptional service, and value they can
-              trust.
-            </p>
-          </section>
         </section>
       </main>
     </BackgroundRotator>

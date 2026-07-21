@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BackgroundRotator from "../../components/BackgroundRotator";
 
 const categories = [
@@ -42,19 +43,24 @@ const categories = [
     ],
   },
   {
-    title: "Truck Parts",
+    title: "Machinery Parts",
     items: ["John Deere", "Caterpillar", "Komatsu", "SDLG", "SANY"],
   },
 ];
 
 export default function ProductsPage() {
-  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg"];
+  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg", "/spares.png", "/attachments%20and%20components.png", "/tips%20and%20adapters.jpg", "/BRADLEY%20BANNER.jpg.jpeg", "/34.png"];
 
   return (
     <BackgroundRotator images={images} interval={6000}>
       <main className="page-shell products-shell">
         <section className="about-card products-card">
-          <h1>Products</h1>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
+            <h1 style={{ margin: 0 }}>Products</h1>
+            <Link href="/pictures" className="secondary-btn">
+              View Picture Gallery
+            </Link>
+          </div>
           <div className="products-grid">
             {categories.map((category) => (
               <section key={category.title} className="product-category">

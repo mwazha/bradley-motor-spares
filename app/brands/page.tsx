@@ -22,7 +22,6 @@ const brandCategories = [
   {
     title: "Filters Brands",
     brands: [
-      { name: "TOTAL", image: "/15.png" },
       { name: "FLEETGUARD", image: "/13.jpg" },
       { name: "DONALDSON", image: "/10.jpg" },
       { name: "BALDWIN FILTERS", image: "/8.jpg" },
@@ -39,12 +38,13 @@ const brandCategories = [
       { name: "FORMA DX", image: "/19.png" },
       { name: "FREIGHTLINER", image: "/20.png" },
       { name: "FUCHS", image: "/21.png" },
+      { name: "TOTAL", image: "/15.png" },
     ],
   },
 ];
 
 export default function BrandsPage() {
-  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg"];
+  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg", "/spares.png", "/attachments%20and%20components.png", "/tips%20and%20adapters.jpg", "/BRADLEY%20BANNER.jpg.jpeg", "/34.png"];
   const fitImagePaths = [
     "/1.jpg",
     "/2.jpg",

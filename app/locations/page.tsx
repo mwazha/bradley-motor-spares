@@ -1,7 +1,7 @@
 import BackgroundRotator from "../../components/BackgroundRotator";
 
 export default function LocationsPage() {
-  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg"];
+  const images = ["/tractor.jpg", "/tiper.jpg", "/bradley.jpg", "/excavator.jpg", "/spares.png", "/attachments%20and%20components.png", "/tips%20and%20adapters.jpg", "/BRADLEY%20BANNER.jpg.jpeg", "/34.png"];
   const coordinates = "18°58'27.5\"S 32°40'09.5\"E";
   const destination = encodeURIComponent(coordinates);
   const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
