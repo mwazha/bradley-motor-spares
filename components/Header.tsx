@@ -64,8 +64,8 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <a href="tel:+263778843817" className="phone">
-            +263 778 843 817
+          <a href="tel:+263778843819" className="phone">
+            +263 778 843 819
           </a>
           <Link href="/locations" className="locations" onClick={() => setOpen(false)}>
             Our Locations
